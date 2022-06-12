@@ -1,0 +1,13 @@
+{
+	"dependencies": {
+		"autoprefixer": "^10.4.7",
+		"tailwindcss": "^3.1.2"
+	},
+	"devDependencies": {
+		"postcss-import": "^14.1.0"
+	},
+	"scripts": {
+		"start": "npx tailwindcss -i src/input.css -o dist/output.css --watch",
+		"server": "http-server -p 3006"
+	}
+}
